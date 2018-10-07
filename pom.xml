@@ -107,5 +107,6 @@
 		<module>ma-soap</module>
 
 		<module>ma-webapp</module>
+		<module>ma-integration</module>
 	</modules>
 </project>
