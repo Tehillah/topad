@@ -10,7 +10,7 @@
 	<artifactId>ma-webapp</artifactId>
 	<packaging>war</packaging>
 	<dependencies>
-	<!-- Dependances internes -->
+		<!-- Dependances internes -->
 		<dependency>
 			<groupId>ma-commons</groupId>
 			<artifactId>ma-commons</artifactId>
@@ -36,5 +36,35 @@
 			<artifactId>ma-soap</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet-core -->
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet-core</artifactId>
+			<version>2.27</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework</groupId> -->
+<!-- 			<artifactId>spring-context</artifactId> -->
+<!-- 			<version>5.1.0.RELEASE</version> -->
+<!-- 		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
+		<!-- C'est pour les annotation @Configuration @EnableWebSecurity @EnableGlobalMethodSecurity(securedEnabled 
+			= true) -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.security</groupId> -->
+<!-- 			<artifactId>spring-security-core</artifactId> -->
+<!-- 			<version>5.0.0.RELEASE</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.security</groupId> -->
+<!-- 			<artifactId>spring-security-config</artifactId> -->
+<!-- 			<version>5.0.0.RELEASE</version> -->
+<!-- 		</dependency> -->
+
+
+
 	</dependencies>
 </project>
