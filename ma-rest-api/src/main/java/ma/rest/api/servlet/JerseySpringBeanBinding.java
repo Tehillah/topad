@@ -27,7 +27,8 @@ public class JerseySpringBeanBinding extends AbstractBinder
         this.basePackage = basePackage;
     }
 
-    @Override
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
     protected void configure()
     {
         // Use Spring scanner all bean candidates in the basepackage

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+	version="2.0">
+
+	<!--Dummy WS to list all WS available -->
+<!-- 	<endpoint name="allServices" -->
+<!-- 		implementation="fr.gouv.impots.appli.topad.synchrone.soapws.ListAllServiceImpl" -->
+<!-- 		url-pattern="/soapws/listAllServices" /> -->
+
+	<!-- Declare here all business enpoint web services -->
+
+
+</endpoints>
